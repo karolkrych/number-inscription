@@ -24,7 +24,7 @@ class NumberInscriptionBuilder:
         self._process_number()
 
     @classmethod
-    def max_numbers(cls):
+    def max_numbers(cls) -> int:
         return len(cls.BIG_NUMBERS) * 3
 
     def _fill_with_zeros(self) -> None:
